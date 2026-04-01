@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- q1 -->
+<a href="#" onclick="Alert()">Click Link</a>
+
+<br/>
+<!-- q2 -->
+<img src="/assets/pic1.avif" onclick="showMessage('MOBILE NO 1')" width="200" height="300">
+<img src="/assets/pic2.avif" onclick="showMessage('MOBILE NO 2')" width="200" height="300">
+<img src="/assets/pic3.jpg" onclick="showMessage('MOBILE NO 3')" width="200" height="300">
+<img src="/assets/pic4.jpg" onclick="showMessage('MOBILE NO 4')" width="200" height="300">
+
+
+<br/>
+<!-- q3 -->
+<table id="studentTable">
+    <tr>
+        <th>Index</th>
+        <th>Name</th>
+        <th>Class</th>
+        <th>Action</th>
+    </tr>
+
+    <tr>
+        <td>1</td><td>John</td><td>10</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+    <tr>
+        <td>2</td><td>Doe</td><td>9</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+    <tr>
+        <td>3</td><td>Mark</td><td>10</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+    <tr>
+        <td>4</td><td>James</td><td>8</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+
+</table>
+<br/>
+<!-- q4 -->
+<img 
+    src="/assets/img1.avif"
+    onmouseover="this.src='/assets/img2.avif'"
+    onmouseout="this.src='/assets/img1.avif'"
+    width="200"
+>
+<br/>
+<!-- q5 -->
+<h1 id="num">0</h1>
+
+<button onclick="increase()">Increase</button>
+<button onclick="decrease()">Decrease</button>
+
+
+    <script src="chap43-48.js"></script>
+
+
+
+
+</body>
+
+</html>
