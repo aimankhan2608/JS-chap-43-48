@@ -1,5 +1,5 @@
 // q1
-function showAlert() {
+function Alert() {
     alert("Welcome..");
 }
 
